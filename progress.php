@@ -242,7 +242,7 @@
 <form class="pure-form pure-form-stacked" method="post" action="<?php echo BASENAME . '?mode=save' ?>">
   <fieldset>
     <hr>
-    <h3>Site setting</h3>
+    <h3>List view setting</h3>
     <div class="pure-g">
       <div class="pure-u-7-24 pure-control-group">
         <label for="service_name">Service name</label>
@@ -286,6 +286,7 @@
       </div>
     </div>
     <hr>
+    <h3>Chart view setting</h3>
     <div class="pure-g">
       <div class="pure-u-7-24 pure-control-group">
         <label for="suspend">Assignee for suspend</label>
