@@ -6,7 +6,8 @@ A simple bar chart like a poor gantt chart.
 
 当初は[ihgsさんのyaml2gantt](https://github.com/ihgs/yaml2gantt)を使うつもりだったものの、npmでインストールしようとしたらMac以外ではPhantomJSのエラーで上手くいかなかったので、悩むより作った方が早かった。  
 
-[デモサイト](https://www.takeru-chan.com/progress/progress.php)はこちら。  
+[デモサイト](https://progress.takeru-chan.com/)はこちら。  
+※デモサイトではセッションごとにデータ管理しているため、他者とのデータ共用はできません。  
 
 ## Usage | 使い方
 `progress.php`をWebサーバー上に置くだけ。データベース不要。PHPは7以降なら多分動く。以下環境で動作確認済。  
